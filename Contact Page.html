@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Contact Page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Pirata+One&display=swap" rel="stylesheet">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <img src="Active Logo.jpeg" id="profilepic">
+            <h1 class="Active-text">ACTIVE</h1>
+        </div>
+        <nav>
+            <button class="hamburger-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-buttons">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Sign-up.html">Sign Up</a></li>
+                <li><a href="Contact Page.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="center">
+        <div class="contactSection">
+            <h1 class="contactHeading">Get in Touch</h1>
+            <p class="contactSubheading">We'd love to hear from you! Reach out with any questions or feedback.</p>
+            
+            <div class="contactContainer">
+                <div class="contactInfo">
+                    <div class="infoItem">
+                        <h3 class="infoHeading">Email</h3>
+                        <p class="infoText">contact@activestudygroup.com</p>
+                    </div>
+                    
+                    <div class="infoItem">
+                        <h3 class="infoHeading">Phone</h3>
+                        <p class="infoText">(555) 123-4567</p>
+                    </div>
+                    
+                    <div class="infoItem">
+                        <h3 class="infoHeading">Address</h3>
+                        <p class="infoText">123 Learning Street<br>Education City, EC 12345</p>
+                    </div>
+                </div>
+                
+                <form class="contactForm">
+                    <div class="formGroup">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="formGroup">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="formGroup">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submitButton">Send Message</button>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <p class="footerParagraph">© 2025 Active Study Group. All rights reserved.</p>
+        </footer>
+    </section>
+    <script src="Contact Page.js"></script>
+</body>
+</html>

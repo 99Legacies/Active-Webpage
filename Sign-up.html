@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Sign-up.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Pirata+One&display=swap" rel="stylesheet">
+    <title>Sign Up</title>
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <img src="Active Logo.jpeg" id="profilepic">
+            <h1 class="Active-text">ACTIVE</h1>
+        </div>
+        <nav>
+            <button class="hamburger-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-buttons">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Sign-up.html">Sign Up</a></li>
+                <li><a href="Contact Page.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="center">
+        <div class="imgSignup">
+            <img src="Active1fm.jpeg" alt="Image">
+        </div>
+
+
+
+        <div class="signupSection">
+            <h1 class="signupHeading">Join Active Study Group</h1>
+            <p class="signupSubheading">Start your journey to academic success today</p>
+            
+            <form class="signupForm">
+                <div class="formGroup">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="formGroup">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="formGroup">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                
+                <div class="formGroup">
+                    <label for="subject">Field of Study</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Select a subject</option>
+                        <option value="math">Information Technology</option>
+                        <option value="c.science">Computer Science</option>
+                        <option value="engineering">Engineering</option>
+                        <option value="history">Nursing</option>
+                        <option value="fire">Fire</option>
+                    </select>
+                </div>
+                
+                
+                <button type="submit" class="submitButton">Register</button>
+            </form>
+        </div>
+        <footer>        
+            <p class="footerParagraph">© 2025 Active Study Group. All rights reserved.</p>                                            
+        </footer>
+    </section>
+    <script src="Sign-up.js"></script>
+</body>
+</html>

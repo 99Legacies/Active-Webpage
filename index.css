@@ -29,7 +29,7 @@ header {
     border-radius: 50%;
     margin-right: 15px;
 }
-.Active {
+.Active-text {
     font: size 24px;
     color: white;
     font-weight: bold;
@@ -48,18 +48,22 @@ nav ul {
 }
 nav ul a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
     font-weight: bold;
     font-family:'Audiowide', cursive;
     transition: color 0.3s;
     padding: 5px 10px;
-    border-bottom: 2px solid transparent;
+
     border-radius: 5px;
 }
 nav ul a:hover {
-    color: rgb(0, 0, 0);
+
     border-bottom: 2px solid goldenrod;
-    background-color: #b1b1b1;
+
+}
+li.active {
+    border-bottom: 2px solid transparent;
+    font-weight: bold;
+    color: dodgerblue;
 }
 .hamburger-menu {
     display: none;
@@ -146,7 +150,7 @@ nav ul a:hover {
     transform: scale(1.05);
     transition: transform 0.3s;
 }
-.AboutUs {
+#About {
     text-align: center;
     margin: 40px 20px 20px 20px;
 }
@@ -249,16 +253,40 @@ footer {
     }
     nav ul {
         display: none;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 150px;
+        border-radius: 10px;
+    }
+    nav ul.show {
+        display: flex;
     }
     .nav-buttons {
         display: none;
         flex-direction: column;
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgba(0, 0, 0, 0.9);
         position: absolute;
         top: 60px;
-        right: 10px;
-        padding: 10px;
+        right: 0;
+        width: 150px;
         border-radius: 10px;
+    }
+    .nav-buttons.open {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        width: 250px;
+        height: auto;
+    }
+    .nav-buttons.open li {
+        padding: 8px 12px;
+    }
+    nav ul a {
+        color: whitesmoke;
     }
     .hamburger-menu {
         display: flex;
@@ -268,7 +296,6 @@ footer {
         gap: 15px;
         align-items: center;
         justify-content: center;
-
     }
     .paragraphSection {
         max-width: 100%;
@@ -277,7 +304,11 @@ footer {
         justify-content:center;
         text-align: center;
         font-size: 16px;
-    
     }
-    
+}html {
+    scroll-behavior: smooth;
+}li.active {
+    border-bottom: 2px solid transparent;
+    font-weight: bold;
+    color: dodgerblue;
 }
