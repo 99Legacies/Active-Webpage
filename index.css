@@ -154,6 +154,15 @@ li.active {
     text-align: center;
     margin: 40px 20px 20px 20px;
 }
+.AboutUsHeading {
+    font-size: 28px;
+    color: darkorange;
+}
+.AboutUsParagraph   {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333333;
+}
 .attributes {
     display: flex;
     justify-content: space-around;
@@ -210,13 +219,15 @@ li.active {
     transform: translateY(-5px);
 }
 footer {
-    background-color: goldenrod;
-    color: white;
+    font-size: 16px;
+    color: #666666;
     text-align: center;
-    padding: 15px 0;
-    margin-top: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    margin: 20px 0;
 }
+
+
+
+/* Media Queries for Responsive Design */
 @media screen and (max-width: 600px) {
     body {
         width: 100%;

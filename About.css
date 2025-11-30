@@ -83,6 +83,9 @@ li.active {
     background-color: white;
     border-radius: 2px;
 }
+
+
+/* Media Queries for Responsive Design */
 @media (max-width: 600px) {
     nav ul {
         display: none;
@@ -121,4 +124,76 @@ li.active {
     nav ul a {
         color: whitesmoke
     }
+}
+ /* Center */
+#About {
+    text-align: center;
+    margin: 40px 20px 20px 20px;
+}
+.attributes {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 20px;
+}
+.attribute {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.attribute:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.attribute h2 {
+    margin-bottom: 15px;
+    color: darkorange;
+}
+.attribute p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+}
+.missionSection {
+    text-align: center;
+    margin: 40px 20px;
+}.AboutUsSection {
+    text-align: center;
+    margin: 40px 20px;
+}
+.AboutUsHeading {
+    font-size: 28px;
+    color: darkorange;
+}
+.aboutUsParagraph {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333333;
+}
+.missionHeading {
+    font-size: 28px;
+    color: darkorange;
+}
+.missionParagraph {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333333;
+}
+.aboutUsHeading {
+    font-size: 28px;
+    color: darkorange;
+}
+.aboutUsParagraph {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333333;
+}
+.footerParagraph {
+    font-size: 16px;
+    color: #666666;
+    text-align: center;
+    margin: 20px 0;
 }
