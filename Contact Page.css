@@ -121,6 +121,15 @@ li.active {
     nav ul a {
         color: whitesmoke
     }
+    
+    #email {
+        min-height:30px;
+        
+    }
+    #name {
+        min-height:30px;
+    }
+    
 }
 
 /* Page Center */
@@ -194,3 +203,4 @@ li.active {
     margin-top: 20px;
 
 }
+#
