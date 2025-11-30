@@ -122,3 +122,75 @@ li.active {
         color: whitesmoke
     }
 }
+
+/* Page Center */
+#center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.contactSection {
+    max-width: 800px;
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+.contactHeading {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.infoHeading {
+    font-size: 18px;
+    color: #555555;
+    margin-bottom: 5px;
+}
+.infoItem {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.infoText {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 5px;
+}
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.submitButton {
+    width: 150px;
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.footerParagraph {
+    text-align: center;
+    color: #777777;
+    margin-top: 20px;
+
+}
